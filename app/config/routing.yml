@@ -1,0 +1,9 @@
+app_web:
+    resource: "@AppBundle/Controller/web"
+    type:     annotation
+app_api:
+    resource: "@AppBundle/Controller/api"
+    type:     annotation
+    # The easiest way to set the request format
+    defaults:
+        _format: json
